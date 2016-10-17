@@ -18,6 +18,10 @@
 
 }
 
+.a.a:visited {
+  color: white;
+}
+
 
 html, body, #root {
   margin: 0;
@@ -131,4 +135,10 @@ a {
 .tech-h3 {
   font-size: 1.5rem;
   margin: 0 0 2rem 0;
+}
+
+html, body, .viewport {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }

@@ -3,6 +3,7 @@
 import {Component} from '@angular/core';
 import {ROUTER_DIRECTIVES, RouterConfig} from '@angular/router';
 import {MainComponent} from './app/main';
+import {CypherRoomComponent} from './app/cypher-room/cypher-room';
 
 @Component({
   selector: 'fountain-root',
@@ -16,5 +17,10 @@ export const routes: RouterConfig = [
   {
     path: '',
     component: MainComponent
+  },
+  {
+    path: 'cypher',
+    component: CypherRoomComponent
+
   }
 ];
